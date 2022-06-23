@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import IntroAwardSection from '@/components/IntroAwardSection'
+import IntroAwardSection from '@/components/Intro/IntroAwardSection'
 
 const Container = styled.div`
   display: flex;
