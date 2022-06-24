@@ -8,9 +8,11 @@ const GlobalStyles = createGlobalStyle`
    outline:none;
    border:none;
   }
+
  html {
   font-size: 16px;
  }
+
  h2 {
   font-size: 2.25rem;
  }
