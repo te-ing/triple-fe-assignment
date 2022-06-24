@@ -8,6 +8,7 @@ const Container = styled.div`
   flex-direction: column;
   gap: 20px;
 `
+
 const StatisticContent = styled.h2`
   font-size: 2.25rem;
   color: rgb(58, 58, 58);

@@ -10,21 +10,7 @@ const Container = styled.section`
   justify-content: space-around;
   width: 1200px;
 `
-const IntroContentsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-`
-const IntroAwardItemContent = styled.span`
-  color: #3a3a3acc;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.5;
-`
-const AwardContainer = styled.div`
-  display: flex;
-  gap: 40px;
-`
+
 const FirstAnimation = styled(RiseAnimation())`
   animation-play-state: running;
 `
@@ -33,6 +19,24 @@ const SecondAnimation = styled(RiseAnimation(0.1))`
 `
 const ThirdAnimation = styled(RiseAnimation(0.2))`
   animation-play-state: running;
+`
+
+const IntroContentsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+`
+
+const AwardContainer = styled.div`
+  display: flex;
+  gap: 40px;
+`
+
+const IntroAwardItemContent = styled.span`
+  color: #3a3a3acc;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
 `
 
 const IntroAwardSection = () => {

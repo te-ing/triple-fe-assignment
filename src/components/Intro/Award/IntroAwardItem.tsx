@@ -6,9 +6,11 @@ const Container = styled.div<{ height?: string }>`
   padding: 5px 0;
   gap: 8px;
 `
+
 const Image = styled.img`
   height: 100%;
 `
+
 const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;

@@ -4,6 +4,11 @@ const Container = styled.div`
   position: relative;
   height: fit-content;
 `
+
+const Image = styled.img`
+  width: 400px;
+`
+
 const Caption = styled.div`
   position: absolute;
   bottom: 40px;
@@ -12,9 +17,7 @@ const Caption = styled.div`
   left: 50%;
   transform: translate(-50%);
 `
-const Image = styled.img`
-  width: 400px;
-`
+
 const IntroAwardCaptionedImage = () => {
   return (
     <Container>
