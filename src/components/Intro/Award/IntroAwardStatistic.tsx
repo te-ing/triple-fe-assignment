@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import { Bold } from '@/styles/commonStyles'
+import useCountUp from '@/components/hooks/useCountUp'
 
 const Container = styled.div`
   display: flex;
@@ -16,13 +17,13 @@ const IntroAwardStatistic = () => {
   return (
     <Container>
       <StatisticContent>
-        <Bold>700만 명</Bold>의 여행자
+        <Bold>{useCountUp(700)}만 명</Bold>의 여행자
       </StatisticContent>
       <StatisticContent>
-        <Bold>100만 개</Bold>의 여행 리뷰
+        <Bold>{useCountUp(100)}만 개</Bold>의 여행 리뷰
       </StatisticContent>
       <StatisticContent>
-        <Bold>470만 개</Bold>의 여행 일정
+        <Bold>{useCountUp(470)}만 개</Bold>의 여행 일정
       </StatisticContent>
     </Container>
   )
